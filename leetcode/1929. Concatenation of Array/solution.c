@@ -1,6 +1,8 @@
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
+// Time: ~O(n)
+// Space: O(2n) ~> O(n)
 int* getConcatenation(int* nums, int numsSize, int* returnSize)
 {
     int *ret = malloc(sizeof(int) * (numsSize * 2));

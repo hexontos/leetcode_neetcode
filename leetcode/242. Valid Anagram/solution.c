@@ -1,8 +1,8 @@
 #include <stdbool.h>
 #include <string.h>
 
-// Time: O(n)
-// Space: O(1)
+// Time: O(3n + 26) ~> O(n)
+// Space: O(26) ~> O(1)
 bool isAnagram(char* s, char* t) {
     int len = strlen(s);
     if (len != strlen(t)) return false;

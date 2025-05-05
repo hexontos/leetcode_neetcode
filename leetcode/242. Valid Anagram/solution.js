@@ -3,6 +3,8 @@
  * @param {string} t
  * @return {boolean}
  */
+// Time: O(n)
+// Space: O(1)
 var isAnagram = function(s, t) {
     if (s.length !== t.length) return false;
 
